@@ -1,0 +1,39 @@
+step-1:  pip is working then  we will install uv 
+
+open the terminal and write the command  'pip install uv' 
+
+How to check the version: 
+
+uv --version 
+step-2: Apply this command on terminal 
+
+uv init . 
+step-3 : Create a virtual Environment
+So for this , we wil oen the terminal and write 
+
+uv venv 
+
+Now we will activate the venv using this command 
+
+.venv\Scripts\activate
+
+first excute this 
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+
+step-3: Now we will create 'requirements.txt' for installing libraries
+step-4: Now open the terminal and write command for install the libraries 
+
+uv add -r requirements.txt 
+step-5: Data store in folder 
+step-6: Create a file a.py and write code in it. 
+step-7: Run this file using command 
+
+python a.py 
+step-8: Install ipykernel so for that add this requirement in requirements.txt file 
+
+Now again run 
+
+uv add -r requirements.txt 
+step-9: create b.ipynb and write code for it 
+step-10: Now push this code on github       ----> ye sab karna step by step activation tak ho gya h
